@@ -1,5 +1,8 @@
 # JSON API Parser and Product Display Application
-link:[https://sivamula99-json-api-parser-and-product-display-application.vercel.app/]
+## Link :[https://sivamula99-json-api-parser-and-product-display-application.vercel.app/]
+
+![Screenshot (415)](https://github.com/Siva-Mula-03/JSON-API-Parser-and-Product-Display-Application/assets/111627965/11d7823b-75e4-475f-a0f7-f66b7c2468c0)
+
 ## Objective
 
 Develop an application that fetches JSON data from a given API endpoint and parses it to extract product information. The application should then present this data in a structured manner, prioritizing the display of products based on their popularity.
