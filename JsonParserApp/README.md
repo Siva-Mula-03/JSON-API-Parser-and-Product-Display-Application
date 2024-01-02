@@ -1,5 +1,6 @@
 # JSON API Parser and Product Display Application
-## Link :[https://sivamula99-json-api-parser-and-product-display-application.vercel.app/]
+
+Link :[https://sivamula99-json-api-parser-and-product-display-application.vercel.app/]
 
 ![Screenshot (415)](https://github.com/Siva-Mula-03/JSON-API-Parser-and-Product-Display-Application/assets/111627965/11d7823b-75e4-475f-a0f7-f66b7c2468c0)
 
