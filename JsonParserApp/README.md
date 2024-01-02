@@ -1,4 +1,52 @@
-# Getting Started with Create React App
+# JSON API Parser and Product Display Application
+
+## Objective
+
+Develop an application that fetches JSON data from a given API endpoint and parses it to extract product information. The application should then present this data in a structured manner, prioritizing the display of products based on their popularity.
+
+## JSON API Details
+
+The API to be parsed is located at:
+[https://s3.amazonaws.com/open-to-cors/assignment.json](https://s3.amazonaws.com/open-to-cors/assignment.json)
+
+The JSON data contains 1000 records of products, each having the following attributes:
+- Subcategory
+- Title
+- Price
+- Popularity
+
+## Requirements
+
+### 1. Data Parsing and Storage:
+- Implement a mechanism to programmatically fetch the JSON data from the provided API.
+- Store the fetched data in a suitable data structure of your choice within the application.
+
+### 2. Data Presentation:
+- Display the parsed product data in a user-friendly presentation.
+- Ensure that the products are ordered based on descending popularity, meaning the most popular products should be displayed first.
+
+
+
+## Instructions to Run Locally 
+
+```bash
+# Clone the repository
+git clone [Your Repository URL]
+
+# Navigate to the project directory
+cd [Your Project Directory]
+
+# Install dependencies
+npm install
+
+# Run the application
+npm start
+
+
+```
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
