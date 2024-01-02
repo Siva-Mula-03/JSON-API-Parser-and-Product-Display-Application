@@ -19,7 +19,9 @@ we can customize display according to requirement.
 
 ### 1. Import & Display Data
 - Download JSON from: `https://s3.amazonaws.com/open-to-cors/assignment.json`.
-- UI: Create a display UI similar to [https://open-to-cors.s3.amazonaws.com/Import_products_Screen_1.pngpng`.[]
+- UI: Create a display UI similar to 
+<img width="1368" alt="Import_products_Screen_1" src="https://github.com/Siva-Mula-03/JSON-API-Parser-and-Product-Display-Application/assets/111627965/d272a52c-504a-4a5d-b565-cb5401e6d158">
+
 
 ### 2. Display Handling
 - **Multi-select**: Allow users to select multiple columns.
