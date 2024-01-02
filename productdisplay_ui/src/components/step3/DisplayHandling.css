@@ -1,0 +1,100 @@
+/* DisplayHandling.css */
+
+.card {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    
+   
+   
+   
+  }
+  
+  h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+  
+  .field-section {
+    width: 25%;
+    float: left;
+    padding: 0 16px;
+  }
+  
+  .field-section h3 {
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px;
+    margin-bottom: 4px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  button
+  {
+    font-size: 20px;
+  }
+
+
+  
+.field-section ul li.selected {
+    background-color: #e6f7ff; /* You can choose any color you like */
+    font-weight: bold;
+  }
+  
+  .field-section ul li.remove-selected {
+    background-color: #ffe6e6; /* A different background color for removal */
+    font-weight: bold;
+  }
+  .file-selection-card {
+    /* Existing styles */
+    position: relative;
+  }
+  
+  .file-selection-card {
+    /* Add any styles for the file-selection-card */
+  }
+  
+  .field-container {
+    /* Add any styles for the field-container */
+  }
+  
+  .field-section {
+    /* Add any styles for the field-section */
+  }
+  
+  .control-buttons {
+    /* Add any styles for the control-buttons */
+  }
+  
+  .selected {
+    /* Add any styles for the selected fields if needed */
+  }
+  
+  .button-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .cancel-button {
+    /* Add any specific styles for the cancel button if needed */
+  }
+  
+  .next-button {
+    /* Add any specific styles for the next button if needed */
+  }
+  

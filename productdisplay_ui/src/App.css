@@ -1,0 +1,18 @@
+.button-container
+{
+   margin: 30px;
+   font-size: 28px;
+}
+.next-button
+{
+    background-color: green;
+    color:white;
+    font-size: 25px;
+    margin:30px;
+}
+.cancel-button
+{
+   margin:2px;
+   color:red;
+    font-size: 25px;
+}

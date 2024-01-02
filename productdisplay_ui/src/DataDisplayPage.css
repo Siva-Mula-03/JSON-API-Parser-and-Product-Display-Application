@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will center the table vertically */
+  }
+  
+  table {
+    width: 80%; /* Adjust the width as per your requirement */
+    border-collapse: collapse;
+    margin-top: 6%; /* Some margin from the top */
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: left;
+  }
+  
+  
