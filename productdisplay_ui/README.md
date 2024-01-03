@@ -1,4 +1,70 @@
-# Getting Started with Create React App
+# Product Display Application
+
+## Objective
+Parse and display 1000 product records from a JSON API with 
+
+attributes: 
+'Product Id',
+'Subcategory',
+    'Title',
+    'Price',
+    'Popularity',
+    'Description',
+    'Rating',
+    'UTM Source',
+    'UTM Medium'.
+
+we can customize display according to requirement.
+## Tasks
+
+### 1. Import & Display Data
+- Download JSON from: `https://s3.amazonaws.com/open-to-cors/assignment.json`.
+- UI: Create a display UI similar to 
+![Screenshot (418)](https://github.com/Siva-Mula-03/JSON-API-Parser-and-Product-Display-Application/assets/111627965/16b82444-8d80-45a7-9898-6ebe97fb356f)
+
+### 2. Display Handling
+- **Multi-select**: Allow users to select multiple columns.
+- **Add/Remove**: 
+  - ">>" moves selected options to "Fields to be Displayed List".
+  - "<<" removes selected options back to "Available Fields List".
+
+### 3. Table Display
+- Display the data in table format of your choice with Title, Price ordered based on the descending popularity.
+
+
+https://github.com/Siva-Mula-03/JSON-API-Parser-and-Product-Display-Application/assets/111627965/9628c2e2-8e34-4a37-9f88-726de47d4c2c
+
+
+
+
+## Setup & Run
+
+1. **Clone Repository**
+   ```bash
+   git clone [repository_url]
+
+
+
+## Instructions to Run Locally 
+
+```bash
+# Clone the repository
+git clone [Your Repository URL]
+
+# Navigate to the project directory
+cd [Your Project Directory]
+
+# Install dependencies
+npm install
+
+# Run the application
+npm start
+
+
+```
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
