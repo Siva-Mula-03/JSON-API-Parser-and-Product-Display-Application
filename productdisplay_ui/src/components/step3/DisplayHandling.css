@@ -45,7 +45,9 @@
   
   button
   {
-    font-size: 20px;
+    font-size: 25px;
+    background-color:green;
+    color:white;
   }
 
 
@@ -86,7 +88,7 @@
   
   .button-container {
     position: absolute;
-    bottom: 10px;
+    bottom: -500px;
     right: 10px;
   }
   

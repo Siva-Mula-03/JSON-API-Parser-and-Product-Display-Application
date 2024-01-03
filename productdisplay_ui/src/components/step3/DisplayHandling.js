@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './DisplayHandling.css';
 import '../step1/FileSelection.css';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom';
 
 const DisplayHandling = ({ onNext, initialSelectedFields }) => {
   const availableFields = [
@@ -19,7 +19,7 @@ const DisplayHandling = ({ onNext, initialSelectedFields }) => {
   const [selectedFields, setSelectedFields] = useState(initialSelectedFields || []);
   const [chosenFields, setChosenFields] = useState([]);
   
-  const navigate = useNavigate(); // Hook to programmatically navigate
+  const navigate = useNavigate();
 
   const moveFieldToSelected = () => {
     const newAvailable = availableFields.filter(f => !chosenFields.includes(f));
@@ -41,8 +41,12 @@ const DisplayHandling = ({ onNext, initialSelectedFields }) => {
     console.log("Selected Fields before sending to App:", selectedFields);
     onNext(selectedFields);
     
-    // Navigate to '/datatable' after handling the selected fields
     navigate('/datatable');
+  };
+
+  // Function to clear all selected fields
+  const clearAllSelectedFields = () => {
+    setSelectedFields([]);
   };
 
   return (
@@ -79,9 +83,10 @@ const DisplayHandling = ({ onNext, initialSelectedFields }) => {
         </div>
       </div>
       <br />
-      {/* Add a Next button to proceed */}
-      <button onClick={() => handleNext(selectedFields)}>Next</button>
-
+      <div className="button-container">
+        <button onClick={clearAllSelectedFields}>Clear All</button> {/* Clear All button */}
+        <button onClick={() => handleNext(selectedFields)}>Next</button>
+      </div>
     </div>
   );
 };

@@ -12,7 +12,8 @@ const DataDisplayPage = ({ parsedData, selectedFields }) => {
 
   return (
     <div>
-      <h1 style={{textAlign:"center",color:"darkblue"}}>Data Display</h1>
+      <h1 style={{textAlign:"center",color:"darkblue"}}>Product Data Display</h1>
+      
     <div className="container">
       
     

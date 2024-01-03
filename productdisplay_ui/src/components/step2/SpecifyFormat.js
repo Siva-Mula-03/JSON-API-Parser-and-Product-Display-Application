@@ -16,9 +16,9 @@ const SpecifyFormat = () => {
       <div className="form-group">
         <label>File Type:</label>
         <select value={fileType} onChange={(e) => setFileType(e.target.value)}>
-          <option value="CSV">CSV</option>
+          <option value="CSV">JSON</option>
           <option value="JSON">JSON</option>
-          {/* Add other file types as needed */}
+      
         </select>
       </div>
 

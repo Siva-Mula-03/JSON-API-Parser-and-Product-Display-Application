@@ -44,8 +44,8 @@ const FileSelection = ({ onFileSelect }) => {
   };
 
   return (
-    <div>
-      <h2>Select File</h2>
+    <div className="file-selection-card">
+      <h2>Step1: Select File</h2>
       <input type="file" accept=".csv, .json" onChange={handleFileChange} />
       <p>Accepted file types: CSV, JSON</p>
     </div>
