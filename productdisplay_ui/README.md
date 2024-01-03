@@ -32,6 +32,12 @@ we can customize display according to requirement.
 ### 3. Table Display
 - Display the data in table format of your choice with Title, Price ordered based on the descending popularity.
 
+
+https://github.com/Siva-Mula-03/JSON-API-Parser-and-Product-Display-Application/assets/111627965/9628c2e2-8e34-4a37-9f88-726de47d4c2c
+
+
+
+
 ## Setup & Run
 
 1. **Clone Repository**
